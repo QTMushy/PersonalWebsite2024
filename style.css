@@ -197,6 +197,8 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
+  padding-bottom: 10rem;
+  
 }
 
 #socials-container {
@@ -318,6 +320,7 @@ section {
 
 #experience {
   position: relative;
+  padding-top: 10rem;
 }
 
 .experience-sub-title {
@@ -325,6 +328,7 @@ section {
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
+  padding-bottom: 10rem;
 }
 
 .experience-details-container {
@@ -430,3 +434,5 @@ footer {
 footer p {
   text-align: center;
 }
+
+
