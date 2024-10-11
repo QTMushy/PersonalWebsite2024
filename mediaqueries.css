@@ -1,15 +1,12 @@
 @media screen and (max-width: 1400px) {
   #profile {
-    height: 83vh;
+    height: auto;
     margin-bottom: 6rem;
   }
   .about-containers {
     flex-wrap: wrap;
   }
-  #contact,
-  #projects {
-    height: fit-content;
-  }
+
 }
 
 @media screen and (max-width: 1200px) {
@@ -45,16 +42,51 @@
   .about-containers {
     margin-top: 0;
   }
+
+  #about {
+    margin: 5rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #about {
+    padding: 0 5%;
+  }
+  .about-containers {
+    flex-direction: column;
+    align-items: center;
+  }
+  .details-container {
+    max-width: 100%;
+  }
+  .section__pic-container {
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+  }
+  .text-container {
+    text-align: center;
+  }
+        #section {
+          margin: 5rem;
+        }
 }
 
 @media screen and (max-width: 600px) {
   #contact,
   footer {
-    height: 40vh;
+    height: auto;
+    padding: 2rem 0;
   }
   #profile {
-    height: 83vh;
+    height: auto;
     margin-bottom: 0;
+  }
+  #about{
+    margin: 5rem;
+  }
+  #experience {
+    margin-top: 5rem;
   }
   article {
     font-size: 1rem;
@@ -87,9 +119,9 @@
     text-align: center;
   }
   .section__pic-container {
-    width: auto;
-    height: 46vw;
-    justify-content: center;
+    width: 100%;
+    height: auto;
+    max-width: 300px;
   }
   .section__text__p2 {
     font-size: 1.25rem;
@@ -99,5 +131,13 @@
   }
   .text-container {
     text-align: justify;
+    font-size: 0.9rem;
+  }
+  .section-container {
+    margin: 5rem
+  }
+
+  #section {
+    margin: 5rem;
   }
 }
